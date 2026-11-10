@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const tr: Record<Key, string> = {
+    nav_features: "Özellikler", nav_plans: "Planlar", nav_how: "Nasıl çalışır", nav_faq: "SSS",
+    nav_login: "Giriş yap", nav_start: "Başla", nav_security: "Güvenlik",
+
+    hero_tag: "Netlikle yatırım yapın",
+    hero_t1: "Geleceğinizi inşa edin,", hero_t2: "blok blok", hero_t3: "",
+    hero_sub: "BitKastl, hesabınızı fonlamanız, yatırım yapmanız ve her işlemi gizli hiçbir şey olmadan izlemeniz için tek ve güvenli bir yer sunar.",
+    hero_cta1: "Ücretsiz hesap oluştur", hero_cta2: "Planları gör",
+    stat_invested: "Toplam yatırım", stat_investors: "Aktif yatırımcı", stat_countries: "Hizmet verilen ülke", stat_paid: "Bugüne kadar ödenen",
+    trusted_by: "Şu ülkelerdeki yatırımcıların güvendiği", portfolio_value: "Portföy değeri",
+
+    feat_title: "Her şey tek yerde",
+    feat_sub: "Paranız, hareketleriniz ve desteğiniz tek bir net panelde bir arada.",
+    f1_t: "Kolay para yatırma", f1_d: "Güvenilir ödeme ortakları üzerinden yatırın. Bakiyeniz yalnızca ödeme onaylandıktan sonra güncellenir.",
+    f2_t: "Her hareket kayıt altında", f2_d: "Yatırmalar, yatırımlar ve çekimlerin hepsi kaydedilir.",
+    f3_t: "Mobil için tasarlandı", f3_d: "Her telefonda ve dizüstü bilgisayarda hızlı ve net.",
+    f4_t: "Korumalı hesaplar", f4_d: "Şifreli bağlantılar ve iki adımlı doğrulama hesabınızı güvende tutar.",
+
+    how_title: "Başlamak için üç blok", how_sub: "Adım adım yükselin.",
+    s1_t: "Hesabınızı oluşturun", s1_d: "Platformu herkes için güvenli tutmak üzere kayıt olun ve kimliğinizi doğrulayın.",
+    s2_t: "Cüzdanınızı fonlayın", s2_d: "Tercih ettiğiniz ödeme yöntemiyle güvenle para ekleyin.",
+    s3_t: "Yatırıma başlayın", s3_d: "Bir plan seçin, yatırım yapın ve ilerlemeyi panelinizden takip edin.",
+
+    plans_title: "Yatırım planları",
+    plans_sub: "Bütçenize uygun planı seçin. 500 $’dan başlayın, hazır olduğunuzda yükselin.",
+    plans_from: "Başlangıç", plans_choose: "Planı seç", plans_popular: "En popüler",
+    plan_perk1: "Tam panel takibi", plan_perk2: "Her işlem kaydedilir",
+    plan_perk3: "İki adımlı koruma", plan_perk4: "Sohbet desteği",
+    plans_return: "Getiri", plans_duration: "Süre",
+
+    sec_title: "Güvenlik sonradan akla gelmez",
+    sec_text: "Şifreli bağlantılar, iki adımlı doğrulama ve izlenen işlemler hesabınızı korur.",
+    sec_cta: "Hesabınızı açın",
+    sec_b1: "256 bit şifreleme", sec_b2: "İki adımlı giriş", sec_b3: "Soğuk depolama", sec_b4: "7/24 izleme",
+
+    faq_title: "Sık sorulan sorular", faq_sub: "En çok sorulan sorulara hızlı yanıtlar.", faq_chat: "Bizimle sohbet edin",
+    q1: "Nasıl hesap oluştururum?", a1: "Başla’ya tıklayın, bilgilerinizi girin ve kimliğinizi doğrulayın. Doğrulandıktan sonra cüzdanınızı fonlayıp yatırıma başlayabilirsiniz.",
+    q2: "Hesabımı nasıl fonlarım?", a2: "Panelinizden mevcut ödeme yöntemleriyle para yatırın. Bakiyeniz ödeme onaylandıktan sonra güncellenir.",
+    q3: "Nasıl para çekerim?", a3: "Panelinizden çekim talebi oluşturun. Tamamlanana kadar durumunu takip edebilirsiniz.",
+    q4: "Hangi planı seçmeliyim?", a4: "Yatırmak istediğiniz tutara uygun planı seçin. Her planın asgari tutarı belirtilir.",
+    q5: "Hesabım nasıl korunuyor?", a5: "Bağlantınız şifrelidir ve ek koruma için iki adımlı doğrulamayı açabilirsiniz.",
+
+    chat_title: "Destek sohbeti", chat_hello: "Merhaba! Bugün size nasıl yardımcı olabiliriz?",
+    chat_ph: "Mesajınızı yazın...", chat_send: "Gönder",
+    chat_auto: "Mesajınız için teşekkürler! Canlı sohbet bağlanır bağlanmaz ekibimiz yanıt verecek.",
+    chat_q1: "Hesabımı nasıl fonlarım?", chat_q2: "Nasıl para çekerim?", chat_q3: "Hangi plan bana uygun?",
+    chat_online: "Çevrimiçi", chat_support: "Sohbet desteği", chat_hint: "BitKastl’a hoş geldiniz 👋 Sohbet edelim!",
+
+    foot_tag: "Netlikle yatırım yapın.", foot_product: "Ürün", foot_support: "Destek", foot_legal: "Yasal",
+    foot_terms: "Koşullar", foot_privacy: "Gizlilik", foot_contact: "İletişim", foot_rights: "Tüm hakları saklıdır.",
+    foot_risk: "Yatırım risk içerir ve getiriler garanti edilmez. Yalnızca kaybetmeyi göze alabileceğiniz parayı yatırın.",
+
+    login_title: "Tekrar hoş geldiniz", login_sub: "BitKastl hesabınıza giriş yapın.",
+    email: "E-posta", password: "Şifre", password_ph: "Şifreniz", forgot: "Şifrenizi mi unuttunuz?",
+    login_btn: "Giriş yap", login_err: "Lütfen e-posta ve şifrenizi girin.",
+    new_here: "BitKastl’da yeni misiniz?", create_account: "Hesap oluştur",
+    login_terms: "Giriş yaparak şunları kabul etmiş olursunuz:", terms_short: "Koşullar", and: "ve", privacy_short: "Gizlilik Politikası",
+    reg_title: "Hesabınızı oluşturun", reg_sub: "BitKastl ile dakikalar içinde yatırıma başlayın.",
+    selected_plan: "Seçilen plan", first_name: "Ad", last_name: "Soyad",
+    country: "Ülke", select_country: "Ülkenizi seçin", phone: "Telefon", dob: "Doğum tarihi",
+    referral: "Referans kodu", optional: "isteğe bağlı", confirm: "Şifreyi onayla",
+    risk_ack: "Yatırımın risk içerdiğini ve sermayemi kaybedebileceğimi anlıyorum.",
+    agree_a: "Şunları kabul ediyorum:", terms_full: "Hizmet Koşulları", agree_b: "ve", privacy_full: "Gizlilik Politikası",
+    reg_btn: "Hesap oluştur", have_account: "Zaten hesabınız var mı?", login_link: "Giriş yap",
+    e_first: "Adınızı girin.", e_last: "Soyadınızı girin.", e_email: "Geçerli bir e-posta adresi girin.",
+    e_country: "Ülkenizi seçin.", e_phone: "Geçerli bir telefon numarası girin.", e_dob: "Doğum tarihinizi girin.",
+    e_age: "En az 18 yaşında olmalısınız.", e_pass: "En az 8 karakter kullanın.",
+    e_confirm: "Şifreler eşleşmiyor.", e_agree: "Koşulları ve Gizlilik Politikasını kabul etmelisiniz.",
+    e_risk: "Lütfen riskleri anladığınızı onaylayın.", last_updated: "Son güncelleme",
+};

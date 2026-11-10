@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const vi: Record<Key, string> = {
+    nav_features: "Tính năng", nav_plans: "Gói đầu tư", nav_how: "Cách hoạt động", nav_faq: "Câu hỏi",
+    nav_login: "Đăng nhập", nav_start: "Bắt đầu", nav_security: "Bảo mật",
+
+    hero_tag: "Đầu tư rõ ràng",
+    hero_t1: "Xây dựng tương lai của bạn,", hero_t2: "từng khối một", hero_t3: "",
+    hero_sub: "BitKastl mang đến một nơi an toàn để nạp tiền vào tài khoản, đầu tư và theo dõi mọi giao dịch, không có gì bị che giấu.",
+    hero_cta1: "Tạo tài khoản miễn phí", hero_cta2: "Xem các gói",
+    stat_invested: "Tổng vốn đầu tư", stat_investors: "Nhà đầu tư đang hoạt động", stat_countries: "Quốc gia phục vụ", stat_paid: "Đã chi trả đến nay",
+    trusted_by: "Được nhà đầu tư tin tưởng tại", portfolio_value: "Giá trị danh mục",
+
+    feat_title: "Mọi thứ trong một nơi",
+    feat_sub: "Tiền, hoạt động và hỗ trợ của bạn, cùng nằm trong một bảng điều khiển rõ ràng.",
+    f1_t: "Nạp tiền đơn giản", f1_d: "Nạp tiền qua các đối tác thanh toán đáng tin cậy. Số dư chỉ được cập nhật sau khi thanh toán được xác nhận.",
+    f2_t: "Mọi giao dịch đều được ghi lại", f2_d: "Nạp tiền, đầu tư và rút tiền đều được ghi nhận.",
+    f3_t: "Dành cho di động", f3_d: "Nhanh và rõ ràng trên mọi điện thoại hay máy tính xách tay.",
+    f4_t: "Tài khoản được bảo vệ", f4_d: "Kết nối mã hóa và xác thực hai yếu tố giúp tài khoản của bạn an toàn.",
+
+    how_title: "Ba bước để bắt đầu", how_sub: "Tiến lên từng bước một.",
+    s1_t: "Tạo tài khoản", s1_d: "Đăng ký và xác minh danh tính để giữ nền tảng an toàn cho mọi người.",
+    s2_t: "Nạp tiền vào ví", s2_d: "Thêm tiền an toàn bằng phương thức thanh toán bạn ưa thích.",
+    s3_t: "Bắt đầu đầu tư", s3_d: "Chọn một gói, đầu tư và theo dõi tiến độ từ bảng điều khiển.",
+
+    plans_title: "Các gói đầu tư",
+    plans_sub: "Chọn gói phù hợp với ngân sách của bạn. Bắt đầu từ $500 và nâng cấp khi bạn sẵn sàng.",
+    plans_from: "Từ", plans_choose: "Chọn gói", plans_popular: "Phổ biến nhất",
+    plan_perk1: "Theo dõi đầy đủ trên bảng điều khiển", plan_perk2: "Mọi giao dịch đều được ghi lại",
+    plan_perk3: "Bảo vệ hai yếu tố", plan_perk4: "Hỗ trợ qua chat",
+    plans_return: "Lợi suất", plans_duration: "Thời hạn",
+
+    sec_title: "Bảo mật không phải là chuyện phụ",
+    sec_text: "Kết nối mã hóa, xác thực hai yếu tố và giao dịch được giám sát bảo vệ tài khoản của bạn.",
+    sec_cta: "Mở tài khoản",
+    sec_b1: "Mã hóa 256-bit", sec_b2: "Đăng nhập hai yếu tố", sec_b3: "Lưu trữ lạnh", sec_b4: "Giám sát 24/7",
+
+    faq_title: "Câu hỏi thường gặp", faq_sub: "Giải đáp nhanh cho những câu hỏi phổ biến nhất.", faq_chat: "Trò chuyện với chúng tôi",
+    q1: "Làm thế nào để tạo tài khoản?", a1: "Nhấn Bắt đầu, nhập thông tin và xác minh danh tính. Sau khi được xác minh, bạn có thể nạp tiền vào ví và bắt đầu đầu tư.",
+    q2: "Làm thế nào để nạp tiền vào tài khoản?", a2: "Nạp tiền từ bảng điều khiển bằng các phương thức thanh toán hiện có. Số dư được cập nhật sau khi thanh toán được xác nhận.",
+    q3: "Làm thế nào để rút tiền?", a3: "Gửi yêu cầu rút tiền từ bảng điều khiển. Bạn có thể theo dõi trạng thái cho đến khi hoàn tất.",
+    q4: "Tôi nên chọn gói nào?", a4: "Chọn gói phù hợp với số tiền bạn muốn đầu tư. Mỗi gói đều ghi rõ số tiền tối thiểu.",
+    q5: "Tài khoản của tôi được bảo vệ như thế nào?", a5: "Kết nối của bạn được mã hóa, và bạn có thể bật xác thực hai yếu tố để được bảo vệ thêm.",
+
+    chat_title: "Chat hỗ trợ", chat_hello: "Xin chào! Chúng tôi có thể giúp gì cho bạn hôm nay?",
+    chat_ph: "Nhập tin nhắn của bạn...", chat_send: "Gửi",
+    chat_auto: "Cảm ơn tin nhắn của bạn! Đội ngũ của chúng tôi sẽ trả lời ngay khi chat trực tiếp được kết nối.",
+    chat_q1: "Làm thế nào để nạp tiền vào tài khoản?", chat_q2: "Làm thế nào để rút tiền?", chat_q3: "Gói nào phù hợp với tôi?",
+    chat_online: "Trực tuyến", chat_support: "Chat hỗ trợ", chat_hint: "Chào mừng đến với BitKastl 👋 Cùng trò chuyện nhé!",
+
+    foot_tag: "Đầu tư rõ ràng.", foot_product: "Sản phẩm", foot_support: "Hỗ trợ", foot_legal: "Pháp lý",
+    foot_terms: "Điều khoản", foot_privacy: "Quyền riêng tư", foot_contact: "Liên hệ", foot_rights: "Bảo lưu mọi quyền.",
+    foot_risk: "Đầu tư có rủi ro và lợi nhuận không được đảm bảo. Chỉ đầu tư số tiền bạn có thể chấp nhận mất.",
+
+    login_title: "Chào mừng trở lại", login_sub: "Đăng nhập vào tài khoản BitKastl của bạn.",
+    email: "Email", password: "Mật khẩu", password_ph: "Mật khẩu của bạn", forgot: "Quên mật khẩu?",
+    login_btn: "Đăng nhập", login_err: "Vui lòng nhập email và mật khẩu.",
+    new_here: "Bạn mới biết đến BitKastl?", create_account: "Tạo tài khoản",
+    login_terms: "Khi đăng nhập, bạn đồng ý với", terms_short: "Điều khoản", and: "và", privacy_short: "Chính sách quyền riêng tư",
+    reg_title: "Tạo tài khoản của bạn", reg_sub: "Bắt đầu đầu tư cùng BitKastl chỉ trong vài phút.",
+    selected_plan: "Gói đã chọn", first_name: "Tên", last_name: "Họ",
+    country: "Quốc gia", select_country: "Chọn quốc gia của bạn", phone: "Điện thoại", dob: "Ngày sinh",
+    referral: "Mã giới thiệu", optional: "tùy chọn", confirm: "Xác nhận mật khẩu",
+    risk_ack: "Tôi hiểu rằng đầu tư có rủi ro và tôi có thể mất vốn.",
+    agree_a: "Tôi đồng ý với", terms_full: "Điều khoản dịch vụ", agree_b: "và", privacy_full: "Chính sách quyền riêng tư",
+    reg_btn: "Tạo tài khoản", have_account: "Đã có tài khoản?", login_link: "Đăng nhập",
+    e_first: "Nhập tên của bạn.", e_last: "Nhập họ của bạn.", e_email: "Nhập địa chỉ email hợp lệ.",
+    e_country: "Chọn quốc gia của bạn.", e_phone: "Nhập số điện thoại hợp lệ.", e_dob: "Nhập ngày sinh của bạn.",
+    e_age: "Bạn phải từ 18 tuổi trở lên.", e_pass: "Dùng ít nhất 8 ký tự.",
+    e_confirm: "Mật khẩu không khớp.", e_agree: "Bạn phải đồng ý với Điều khoản và Chính sách quyền riêng tư.",
+    e_risk: "Vui lòng xác nhận bạn hiểu các rủi ro.", last_updated: "Cập nhật lần cuối",
+};

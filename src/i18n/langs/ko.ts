@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const ko: Record<Key, string> = {
+    nav_features: "기능", nav_plans: "플랜", nav_how: "이용 방법", nav_faq: "자주 묻는 질문",
+    nav_login: "로그인", nav_start: "시작하기", nav_security: "보안",
+
+    hero_tag: "명확하게 투자하세요",
+    hero_t1: "당신의 미래를 쌓아 가세요,", hero_t2: "한 블록씩", hero_t3: "",
+    hero_sub: "BitKastl은 계정 입금, 투자, 모든 거래 확인을 숨김없이 한곳에서 안전하게 할 수 있는 공간입니다.",
+    hero_cta1: "무료 계정 만들기", hero_cta2: "플랜 보기",
+    stat_invested: "누적 투자금", stat_investors: "활성 투자자", stat_countries: "서비스 국가", stat_paid: "지금까지 지급액",
+    trusted_by: "다음 지역 투자자들이 신뢰합니다", portfolio_value: "포트폴리오 평가액",
+
+    feat_title: "모든 것을 한곳에서",
+    feat_sub: "자산, 활동 내역, 고객 지원을 하나의 명확한 대시보드에서 확인하세요.",
+    f1_t: "간편한 입금", f1_d: "신뢰할 수 있는 결제 파트너를 통해 입금하세요. 잔액은 결제가 확인된 후에만 업데이트됩니다.",
+    f2_t: "모든 내역 기록", f2_d: "입금, 투자, 출금이 모두 기록됩니다.",
+    f3_t: "모바일에 최적화", f3_d: "어떤 휴대폰이나 노트북에서도 빠르고 선명합니다.",
+    f4_t: "보호되는 계정", f4_d: "암호화된 연결과 2단계 인증으로 계정을 안전하게 지켜 줍니다.",
+
+    how_title: "시작을 위한 세 단계", how_sub: "한 단계씩 차근차근 올라가세요.",
+    s1_t: "계정 만들기", s1_d: "가입하고 본인 인증을 완료하여 모두에게 안전한 플랫폼을 유지하세요.",
+    s2_t: "지갑에 입금하기", s2_d: "원하는 결제 수단으로 안전하게 자금을 추가하세요.",
+    s3_t: "투자 시작하기", s3_d: "플랜을 선택해 투자하고 대시보드에서 진행 상황을 확인하세요.",
+
+    plans_title: "투자 플랜",
+    plans_sub: "예산에 맞는 플랜을 선택하세요. 500달러부터 시작해 준비되면 언제든 올라갈 수 있습니다.",
+    plans_from: "최소 금액", plans_choose: "플랜 선택", plans_popular: "가장 인기",
+    plan_perk1: "대시보드 전체 추적", plan_perk2: "모든 거래 기록",
+    plan_perk3: "2단계 인증 보호", plan_perk4: "채팅 지원",
+    plans_return: "수익률", plans_duration: "기간",
+
+    sec_title: "보안은 뒷전이 아닙니다",
+    sec_text: "암호화된 연결, 2단계 인증, 모니터링되는 거래가 계정을 보호합니다.",
+    sec_cta: "계정 열기",
+    sec_b1: "256비트 암호화", sec_b2: "2단계 로그인", sec_b3: "콜드 스토리지", sec_b4: "24시간 모니터링",
+
+    faq_title: "자주 묻는 질문", faq_sub: "가장 많이 묻는 질문에 대한 빠른 답변입니다.", faq_chat: "채팅으로 문의하기",
+    q1: "계정은 어떻게 만드나요?", a1: "시작하기를 누르고 정보를 입력한 뒤 본인 인증을 완료하세요. 인증 후 지갑에 입금하고 투자를 시작할 수 있습니다.",
+    q2: "계정에 어떻게 입금하나요?", a2: "대시보드에서 이용 가능한 결제 수단으로 입금하세요. 잔액은 결제가 확인된 후 업데이트됩니다.",
+    q3: "출금은 어떻게 하나요?", a3: "대시보드에서 출금을 요청하세요. 완료될 때까지 진행 상태를 확인할 수 있습니다.",
+    q4: "어떤 플랜을 선택해야 하나요?", a4: "투자하려는 금액에 맞는 플랜을 선택하세요. 각 플랜에는 최소 금액이 표시되어 있습니다.",
+    q5: "내 계정은 어떻게 보호되나요?", a5: "연결은 암호화되어 있으며, 2단계 인증을 켜서 추가로 보호할 수 있습니다.",
+
+    chat_title: "고객 지원 채팅", chat_hello: "안녕하세요! 무엇을 도와드릴까요?",
+    chat_ph: "메시지를 입력하세요...", chat_send: "보내기",
+    chat_auto: "메시지 감사합니다! 실시간 채팅이 연결되는 즉시 팀이 답변드리겠습니다.",
+    chat_q1: "계정에 어떻게 입금하나요?", chat_q2: "출금은 어떻게 하나요?", chat_q3: "어떤 플랜이 저에게 맞나요?",
+    chat_online: "온라인", chat_support: "채팅 지원", chat_hint: "BitKastl에 오신 것을 환영합니다 👋 대화해 볼까요!",
+
+    foot_tag: "명확하게 투자하세요.", foot_product: "제품", foot_support: "지원", foot_legal: "법적 고지",
+    foot_terms: "이용약관", foot_privacy: "개인정보처리방침", foot_contact: "문의하기", foot_rights: "모든 권리 보유.",
+    foot_risk: "투자에는 위험이 따르며 수익은 보장되지 않습니다. 잃어도 감당할 수 있는 금액만 투자하세요.",
+
+    login_title: "다시 오신 것을 환영합니다", login_sub: "BitKastl 계정에 로그인하세요.",
+    email: "이메일", password: "비밀번호", password_ph: "비밀번호 입력", forgot: "비밀번호를 잊으셨나요?",
+    login_btn: "로그인", login_err: "이메일과 비밀번호를 입력해 주세요.",
+    new_here: "BitKastl이 처음이신가요?", create_account: "계정 만들기",
+    login_terms: "로그인하면 다음에 동의한 것으로 간주됩니다:", terms_short: "이용약관", and: "및", privacy_short: "개인정보처리방침",
+    reg_title: "계정 만들기", reg_sub: "몇 분 만에 BitKastl로 투자를 시작하세요.",
+    selected_plan: "선택한 플랜", first_name: "이름", last_name: "성",
+    country: "국가", select_country: "국가를 선택하세요", phone: "전화번호", dob: "생년월일",
+    referral: "추천 코드", optional: "선택", confirm: "비밀번호 확인",
+    risk_ack: "투자에는 위험이 따르며 원금을 잃을 수 있음을 이해합니다.",
+    agree_a: "다음에 동의합니다:", terms_full: "이용약관", agree_b: "및", privacy_full: "개인정보처리방침",
+    reg_btn: "계정 만들기", have_account: "이미 계정이 있으신가요?", login_link: "로그인",
+    e_first: "이름을 입력해 주세요.", e_last: "성을 입력해 주세요.", e_email: "올바른 이메일 주소를 입력해 주세요.",
+    e_country: "국가를 선택해 주세요.", e_phone: "올바른 전화번호를 입력해 주세요.", e_dob: "생년월일을 입력해 주세요.",
+    e_age: "만 18세 이상이어야 합니다.", e_pass: "8자 이상으로 입력해 주세요.",
+    e_confirm: "비밀번호가 일치하지 않습니다.", e_agree: "이용약관과 개인정보처리방침에 동의해야 합니다.",
+    e_risk: "위험을 이해했음을 확인해 주세요.", last_updated: "최종 업데이트",
+};

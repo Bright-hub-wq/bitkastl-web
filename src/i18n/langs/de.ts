@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const de: Record<Key, string> = {
+    nav_features: "Funktionen", nav_plans: "Pläne", nav_how: "So funktioniert’s", nav_faq: "FAQ",
+    nav_login: "Anmelden", nav_start: "Loslegen", nav_security: "Sicherheit",
+
+    hero_tag: "Investieren mit Klarheit",
+    hero_t1: "Bauen Sie Ihre Zukunft auf,", hero_t2: "Block für Block", hero_t3: "",
+    hero_sub: "BitKastl bietet Ihnen einen sicheren Ort, um Ihr Konto aufzuladen, zu investieren und jede Transaktion zu verfolgen – ohne versteckte Details.",
+    hero_cta1: "Kostenloses Konto erstellen", hero_cta2: "Pläne ansehen",
+    stat_invested: "Gesamtinvestition", stat_investors: "Aktive Anleger", stat_countries: "Betreute Länder", stat_paid: "Bisher ausgezahlt",
+    trusted_by: "Das Vertrauen von Anlegern in", portfolio_value: "Portfoliowert",
+
+    feat_title: "Alles an einem Ort",
+    feat_sub: "Ihr Geld, Ihre Aktivitäten und Ihr Support – gebündelt in einem übersichtlichen Dashboard.",
+    f1_t: "Einfach einzahlen", f1_d: "Zahlen Sie über vertrauenswürdige Zahlungspartner ein. Ihr Guthaben wird erst nach Bestätigung der Zahlung aktualisiert.",
+    f2_t: "Jede Bewegung erfasst", f2_d: "Einzahlungen, Investitionen und Auszahlungen werden lückenlos protokolliert.",
+    f3_t: "Für Mobilgeräte gemacht", f3_d: "Schnell und übersichtlich auf jedem Smartphone und Laptop.",
+    f4_t: "Geschützte Konten", f4_d: "Verschlüsselte Verbindungen und Zwei-Faktor-Authentifizierung schützen Ihr Konto.",
+
+    how_title: "Drei Blöcke zum Start", how_sub: "Bauen Sie sich Schritt für Schritt nach oben.",
+    s1_t: "Konto erstellen", s1_d: "Registrieren Sie sich und verifizieren Sie Ihre Identität, damit die Plattform für alle sicher bleibt.",
+    s2_t: "Wallet aufladen", s2_d: "Fügen Sie Geld sicher mit Ihrer bevorzugten Zahlungsmethode hinzu.",
+    s3_t: "Mit dem Investieren beginnen", s3_d: "Wählen Sie einen Plan, investieren Sie und verfolgen Sie den Fortschritt in Ihrem Dashboard.",
+
+    plans_title: "Anlagepläne",
+    plans_sub: "Wählen Sie den Plan, der zu Ihrem Budget passt. Starten Sie ab 500 $ und steigen Sie auf, wenn Sie bereit sind.",
+    plans_from: "Ab", plans_choose: "Plan wählen", plans_popular: "Am beliebtesten",
+    plan_perk1: "Vollständiges Dashboard-Tracking", plan_perk2: "Jede Transaktion erfasst",
+    plan_perk3: "Zwei-Faktor-Schutz", plan_perk4: "Chat-Support",
+    plans_return: "Rendite", plans_duration: "Laufzeit",
+
+    sec_title: "Sicherheit ist kein Nebenthema",
+    sec_text: "Verschlüsselte Verbindungen, Zwei-Faktor-Authentifizierung und überwachte Transaktionen schützen Ihr Konto.",
+    sec_cta: "Konto eröffnen",
+    sec_b1: "256-Bit-Verschlüsselung", sec_b2: "Zwei-Faktor-Login", sec_b3: "Cold Storage", sec_b4: "Überwachung rund um die Uhr",
+
+    faq_title: "Häufig gestellte Fragen", faq_sub: "Schnelle Antworten auf die häufigsten Fragen.", faq_chat: "Chatten Sie mit uns",
+    q1: "Wie erstelle ich ein Konto?", a1: "Klicken Sie auf Loslegen, geben Sie Ihre Daten ein und verifizieren Sie Ihre Identität. Nach der Verifizierung können Sie Ihre Wallet aufladen und investieren.",
+    q2: "Wie lade ich mein Konto auf?", a2: "Zahlen Sie über Ihr Dashboard mit den verfügbaren Zahlungsmethoden ein. Ihr Guthaben wird nach Bestätigung der Zahlung aktualisiert.",
+    q3: "Wie hebe ich Geld ab?", a3: "Beantragen Sie eine Auszahlung in Ihrem Dashboard. Sie können den Status bis zum Abschluss verfolgen.",
+    q4: "Welchen Plan soll ich wählen?", a4: "Wählen Sie den Plan, der zum Betrag passt, den Sie investieren möchten. Jeder Plan nennt seinen Mindestbetrag.",
+    q5: "Wie ist mein Konto geschützt?", a5: "Ihre Verbindung ist verschlüsselt, und Sie können die Zwei-Faktor-Authentifizierung für zusätzlichen Schutz aktivieren.",
+
+    chat_title: "Support-Chat", chat_hello: "Hallo! Wie können wir Ihnen heute helfen?",
+    chat_ph: "Nachricht eingeben...", chat_send: "Senden",
+    chat_auto: "Danke für Ihre Nachricht! Unser Team antwortet, sobald der Live-Chat verbunden ist.",
+    chat_q1: "Wie lade ich mein Konto auf?", chat_q2: "Wie hebe ich Geld ab?", chat_q3: "Welcher Plan passt zu mir?",
+    chat_online: "Online", chat_support: "Chat-Support", chat_hint: "Willkommen bei BitKastl 👋 Lassen Sie uns chatten!",
+
+    foot_tag: "Investieren mit Klarheit.", foot_product: "Produkt", foot_support: "Support", foot_legal: "Rechtliches",
+    foot_terms: "AGB", foot_privacy: "Datenschutz", foot_contact: "Kontakt", foot_rights: "Alle Rechte vorbehalten.",
+    foot_risk: "Investieren ist mit Risiken verbunden, und Renditen sind nicht garantiert. Investieren Sie nur Geld, dessen Verlust Sie verkraften können.",
+
+    login_title: "Willkommen zurück", login_sub: "Melden Sie sich bei Ihrem BitKastl-Konto an.",
+    email: "E-Mail", password: "Passwort", password_ph: "Ihr Passwort", forgot: "Passwort vergessen?",
+    login_btn: "Anmelden", login_err: "Bitte geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.",
+    new_here: "Neu bei BitKastl?", create_account: "Konto erstellen",
+    login_terms: "Mit der Anmeldung akzeptieren Sie unsere", terms_short: "AGB", and: "und", privacy_short: "Datenschutzerklärung",
+    reg_title: "Erstellen Sie Ihr Konto", reg_sub: "Starten Sie in wenigen Minuten mit BitKastl.",
+    selected_plan: "Gewählter Plan", first_name: "Vorname", last_name: "Nachname",
+    country: "Land", select_country: "Land auswählen", phone: "Telefon", dob: "Geburtsdatum",
+    referral: "Empfehlungscode", optional: "optional", confirm: "Passwort bestätigen",
+    risk_ack: "Ich verstehe, dass Investieren mit Risiken verbunden ist und ich mein Kapital verlieren kann.",
+    agree_a: "Ich akzeptiere die", terms_full: "Nutzungsbedingungen", agree_b: "und die", privacy_full: "Datenschutzerklärung",
+    reg_btn: "Konto erstellen", have_account: "Sie haben bereits ein Konto?", login_link: "Anmelden",
+    e_first: "Geben Sie Ihren Vornamen ein.", e_last: "Geben Sie Ihren Nachnamen ein.", e_email: "Geben Sie eine gültige E-Mail-Adresse ein.",
+    e_country: "Wählen Sie Ihr Land aus.", e_phone: "Geben Sie eine gültige Telefonnummer ein.", e_dob: "Geben Sie Ihr Geburtsdatum ein.",
+    e_age: "Sie müssen mindestens 18 Jahre alt sein.", e_pass: "Verwenden Sie mindestens 8 Zeichen.",
+    e_confirm: "Die Passwörter stimmen nicht überein.", e_agree: "Sie müssen den Nutzungsbedingungen und der Datenschutzerklärung zustimmen.",
+    e_risk: "Bitte bestätigen Sie, dass Sie die Risiken verstehen.", last_updated: "Zuletzt aktualisiert",
+};

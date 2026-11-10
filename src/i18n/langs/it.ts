@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const it: Record<Key, string> = {
+    nav_features: "Funzionalità", nav_plans: "Piani", nav_how: "Come funziona", nav_faq: "FAQ",
+    nav_login: "Accedi", nav_start: "Inizia", nav_security: "Sicurezza",
+
+    hero_tag: "Investi con chiarezza",
+    hero_t1: "Costruisci il tuo futuro,", hero_t2: "blocco dopo blocco", hero_t3: "",
+    hero_sub: "BitKastl ti offre un posto sicuro dove finanziare il tuo conto, investire e seguire ogni transazione, senza nulla di nascosto.",
+    hero_cta1: "Crea un conto gratuito", hero_cta2: "Vedi i piani",
+    stat_invested: "Totale investito", stat_investors: "Investitori attivi", stat_countries: "Paesi serviti", stat_paid: "Pagato finora",
+    trusted_by: "La fiducia degli investitori in", portfolio_value: "Valore del portafoglio",
+
+    feat_title: "Tutto in un unico posto",
+    feat_sub: "Il tuo denaro, la tua attività e il tuo supporto, insieme in un’unica dashboard chiara.",
+    f1_t: "Deposito semplice", f1_d: "Deposita tramite partner di pagamento affidabili. Il tuo saldo si aggiorna solo dopo la conferma del pagamento.",
+    f2_t: "Ogni movimento registrato", f2_d: "Depositi, investimenti e prelievi vengono tutti registrati.",
+    f3_t: "Pensato per il mobile", f3_d: "Veloce e chiaro su qualsiasi telefono o computer.",
+    f4_t: "Conti protetti", f4_d: "Connessioni cifrate e autenticazione a due fattori proteggono il tuo conto.",
+
+    how_title: "Tre blocchi per iniziare", how_sub: "Sali un gradino alla volta.",
+    s1_t: "Crea il tuo conto", s1_d: "Registrati e verifica la tua identità per mantenere la piattaforma sicura per tutti.",
+    s2_t: "Finanzia il tuo portafoglio", s2_d: "Aggiungi denaro in sicurezza con il metodo di pagamento che preferisci.",
+    s3_t: "Inizia a investire", s3_d: "Scegli un piano, investi e segui i progressi dalla tua dashboard.",
+
+    plans_title: "Piani di investimento",
+    plans_sub: "Scegli il piano adatto al tuo budget. Parti da $500 e passa a un livello superiore quando sei pronto.",
+    plans_from: "A partire da", plans_choose: "Scegli il piano", plans_popular: "Il più popolare",
+    plan_perk1: "Monitoraggio completo dalla dashboard", plan_perk2: "Ogni transazione registrata",
+    plan_perk3: "Protezione a due fattori", plan_perk4: "Supporto via chat",
+    plans_return: "Rendimento", plans_duration: "Durata",
+
+    sec_title: "La sicurezza non è un dettaglio",
+    sec_text: "Connessioni cifrate, autenticazione a due fattori e transazioni monitorate proteggono il tuo conto.",
+    sec_cta: "Apri il tuo conto",
+    sec_b1: "Crittografia a 256 bit", sec_b2: "Accesso a due fattori", sec_b3: "Cold storage", sec_b4: "Monitoraggio 24/7",
+
+    faq_title: "Domande frequenti", faq_sub: "Risposte rapide alle domande più comuni.", faq_chat: "Scrivici in chat",
+    q1: "Come creo un conto?", a1: "Fai clic su Inizia, inserisci i tuoi dati e verifica la tua identità. Dopo la verifica puoi finanziare il portafoglio e iniziare a investire.",
+    q2: "Come finanzio il mio conto?", a2: "Deposita dalla dashboard con i metodi di pagamento disponibili. Il saldo si aggiorna dopo la conferma del pagamento.",
+    q3: "Come effettuo un prelievo?", a3: "Richiedi un prelievo dalla dashboard. Puoi seguirne lo stato fino al completamento.",
+    q4: "Quale piano devo scegliere?", a4: "Scegli il piano che corrisponde all’importo che vuoi investire. Ogni piano indica il suo importo minimo.",
+    q5: "Come è protetto il mio conto?", a5: "La tua connessione è cifrata e puoi attivare l’autenticazione a due fattori per una protezione extra.",
+
+    chat_title: "Chat di supporto", chat_hello: "Ciao! Come possiamo aiutarti oggi?",
+    chat_ph: "Scrivi il tuo messaggio...", chat_send: "Invia",
+    chat_auto: "Grazie per il tuo messaggio! Il nostro team risponderà non appena la chat dal vivo sarà collegata.",
+    chat_q1: "Come finanzio il mio conto?", chat_q2: "Come effettuo un prelievo?", chat_q3: "Quale piano fa per me?",
+    chat_online: "Online", chat_support: "Supporto chat", chat_hint: "Benvenuto su BitKastl 👋 Parliamone!",
+
+    foot_tag: "Investi con chiarezza.", foot_product: "Prodotto", foot_support: "Supporto", foot_legal: "Note legali",
+    foot_terms: "Termini", foot_privacy: "Privacy", foot_contact: "Contatti", foot_rights: "Tutti i diritti riservati.",
+    foot_risk: "Investire comporta dei rischi e i rendimenti non sono garantiti. Investi solo ciò che puoi permetterti di perdere.",
+
+    login_title: "Bentornato", login_sub: "Accedi al tuo conto BitKastl.",
+    email: "E-mail", password: "Password", password_ph: "La tua password", forgot: "Hai dimenticato la password?",
+    login_btn: "Accedi", login_err: "Inserisci la tua e-mail e la tua password.",
+    new_here: "Nuovo su BitKastl?", create_account: "Crea un conto",
+    login_terms: "Accedendo accetti i nostri", terms_short: "Termini", and: "e la", privacy_short: "Privacy Policy",
+    reg_title: "Crea il tuo conto", reg_sub: "Inizia a investire con BitKastl in pochi minuti.",
+    selected_plan: "Piano selezionato", first_name: "Nome", last_name: "Cognome",
+    country: "Paese", select_country: "Seleziona il tuo paese", phone: "Telefono", dob: "Data di nascita",
+    referral: "Codice di riferimento", optional: "facoltativo", confirm: "Conferma password",
+    risk_ack: "Comprendo che investire comporta rischi e che posso perdere il mio capitale.",
+    agree_a: "Accetto i", terms_full: "Termini di servizio", agree_b: "e la", privacy_full: "Privacy Policy",
+    reg_btn: "Crea conto", have_account: "Hai già un conto?", login_link: "Accedi",
+    e_first: "Inserisci il tuo nome.", e_last: "Inserisci il tuo cognome.", e_email: "Inserisci un indirizzo e-mail valido.",
+    e_country: "Seleziona il tuo paese.", e_phone: "Inserisci un numero di telefono valido.", e_dob: "Inserisci la tua data di nascita.",
+    e_age: "Devi avere almeno 18 anni.", e_pass: "Usa almeno 8 caratteri.",
+    e_confirm: "Le password non coincidono.", e_agree: "Devi accettare i Termini e la Privacy Policy.",
+    e_risk: "Conferma di aver compreso i rischi.", last_updated: "Ultimo aggiornamento",
+};

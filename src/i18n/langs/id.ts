@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const id: Record<Key, string> = {
+    nav_features: "Fitur", nav_plans: "Paket", nav_how: "Cara kerja", nav_faq: "FAQ",
+    nav_login: "Masuk", nav_start: "Mulai", nav_security: "Keamanan",
+
+    hero_tag: "Berinvestasi dengan jelas",
+    hero_t1: "Bangun masa depan Anda,", hero_t2: "blok demi blok", hero_t3: "",
+    hero_sub: "BitKastl memberi Anda satu tempat aman untuk mengisi akun, berinvestasi, dan memantau setiap transaksi, tanpa ada yang disembunyikan.",
+    hero_cta1: "Buat akun gratis", hero_cta2: "Lihat paket",
+    stat_invested: "Total investasi", stat_investors: "Investor aktif", stat_countries: "Negara dilayani", stat_paid: "Telah dibayarkan",
+    trusted_by: "Dipercaya investor di", portfolio_value: "Nilai portofolio",
+
+    feat_title: "Semua di satu tempat",
+    feat_sub: "Uang, aktivitas, dan dukungan Anda, bersama dalam satu dasbor yang jelas.",
+    f1_t: "Pengisian saldo mudah", f1_d: "Setor melalui mitra pembayaran tepercaya. Saldo Anda diperbarui hanya setelah pembayaran dikonfirmasi.",
+    f2_t: "Setiap transaksi tercatat", f2_d: "Setoran, investasi, dan penarikan semuanya dicatat.",
+    f3_t: "Dibuat untuk ponsel", f3_d: "Cepat dan jelas di ponsel maupun laptop apa pun.",
+    f4_t: "Akun terlindungi", f4_d: "Koneksi terenkripsi dan autentikasi dua faktor menjaga keamanan akun Anda.",
+
+    how_title: "Tiga blok untuk memulai", how_sub: "Naik selangkah demi selangkah.",
+    s1_t: "Buat akun Anda", s1_d: "Daftar dan verifikasi identitas agar platform tetap aman untuk semua orang.",
+    s2_t: "Isi dompet Anda", s2_d: "Tambahkan dana dengan aman melalui metode pembayaran pilihan Anda.",
+    s3_t: "Mulai berinvestasi", s3_d: "Pilih paket, berinvestasi, dan pantau perkembangannya dari dasbor Anda.",
+
+    plans_title: "Paket investasi",
+    plans_sub: "Pilih paket yang sesuai anggaran Anda. Mulai dari $500 dan naik kapan pun Anda siap.",
+    plans_from: "Mulai dari", plans_choose: "Pilih paket", plans_popular: "Paling populer",
+    plan_perk1: "Pemantauan dasbor lengkap", plan_perk2: "Setiap transaksi tercatat",
+    plan_perk3: "Perlindungan dua faktor", plan_perk4: "Dukungan chat",
+    plans_return: "Imbal hasil", plans_duration: "Durasi",
+
+    sec_title: "Keamanan bukan sekadar tambahan",
+    sec_text: "Koneksi terenkripsi, autentikasi dua faktor, dan transaksi yang dipantau melindungi akun Anda.",
+    sec_cta: "Buka akun Anda",
+    sec_b1: "Enkripsi 256-bit", sec_b2: "Login dua faktor", sec_b3: "Penyimpanan dingin", sec_b4: "Pemantauan 24/7",
+
+    faq_title: "Pertanyaan yang sering diajukan", faq_sub: "Jawaban cepat untuk hal yang paling sering ditanyakan.", faq_chat: "Chat dengan kami",
+    q1: "Bagaimana cara membuat akun?", a1: "Klik Mulai, isi data Anda, dan verifikasi identitas. Setelah terverifikasi, Anda dapat mengisi dompet dan mulai berinvestasi.",
+    q2: "Bagaimana cara mengisi saldo akun?", a2: "Setor dari dasbor Anda menggunakan metode pembayaran yang tersedia. Saldo diperbarui setelah pembayaran dikonfirmasi.",
+    q3: "Bagaimana cara menarik dana?", a3: "Ajukan penarikan dari dasbor Anda. Anda dapat memantau statusnya hingga selesai.",
+    q4: "Paket mana yang harus saya pilih?", a4: "Pilih paket yang sesuai dengan jumlah yang ingin Anda investasikan. Setiap paket mencantumkan jumlah minimumnya.",
+    q5: "Bagaimana akun saya dilindungi?", a5: "Koneksi Anda terenkripsi, dan Anda dapat mengaktifkan autentikasi dua faktor untuk perlindungan tambahan.",
+
+    chat_title: "Chat dukungan", chat_hello: "Halo! Ada yang bisa kami bantu hari ini?",
+    chat_ph: "Ketik pesan Anda...", chat_send: "Kirim",
+    chat_auto: "Terima kasih atas pesan Anda! Tim kami akan membalas segera setelah live chat tersambung.",
+    chat_q1: "Bagaimana cara mengisi saldo akun?", chat_q2: "Bagaimana cara menarik dana?", chat_q3: "Paket mana yang cocok untuk saya?",
+    chat_online: "Online", chat_support: "Chat dukungan", chat_hint: "Selamat datang di BitKastl 👋 Ayo ngobrol!",
+
+    foot_tag: "Berinvestasi dengan jelas.", foot_product: "Produk", foot_support: "Dukungan", foot_legal: "Hukum",
+    foot_terms: "Ketentuan", foot_privacy: "Privasi", foot_contact: "Kontak", foot_rights: "Hak cipta dilindungi.",
+    foot_risk: "Investasi mengandung risiko dan imbal hasil tidak dijamin. Investasikan hanya dana yang sanggup Anda tanggung kerugiannya.",
+
+    login_title: "Selamat datang kembali", login_sub: "Masuk ke akun BitKastl Anda.",
+    email: "Email", password: "Kata sandi", password_ph: "Kata sandi Anda", forgot: "Lupa kata sandi?",
+    login_btn: "Masuk", login_err: "Masukkan email dan kata sandi Anda.",
+    new_here: "Baru di BitKastl?", create_account: "Buat akun",
+    login_terms: "Dengan masuk, Anda menyetujui", terms_short: "Ketentuan", and: "dan", privacy_short: "Kebijakan Privasi",
+    reg_title: "Buat akun Anda", reg_sub: "Mulai berinvestasi dengan BitKastl dalam hitungan menit.",
+    selected_plan: "Paket terpilih", first_name: "Nama depan", last_name: "Nama belakang",
+    country: "Negara", select_country: "Pilih negara Anda", phone: "Telepon", dob: "Tanggal lahir",
+    referral: "Kode referral", optional: "opsional", confirm: "Konfirmasi kata sandi",
+    risk_ack: "Saya memahami bahwa investasi mengandung risiko dan saya dapat kehilangan modal saya.",
+    agree_a: "Saya menyetujui", terms_full: "Ketentuan Layanan", agree_b: "dan", privacy_full: "Kebijakan Privasi",
+    reg_btn: "Buat akun", have_account: "Sudah punya akun?", login_link: "Masuk",
+    e_first: "Masukkan nama depan Anda.", e_last: "Masukkan nama belakang Anda.", e_email: "Masukkan alamat email yang valid.",
+    e_country: "Pilih negara Anda.", e_phone: "Masukkan nomor telepon yang valid.", e_dob: "Masukkan tanggal lahir Anda.",
+    e_age: "Usia Anda minimal 18 tahun.", e_pass: "Gunakan minimal 8 karakter.",
+    e_confirm: "Kata sandi tidak cocok.", e_agree: "Anda harus menyetujui Ketentuan dan Kebijakan Privasi.",
+    e_risk: "Harap konfirmasi bahwa Anda memahami risikonya.", last_updated: "Terakhir diperbarui",
+};

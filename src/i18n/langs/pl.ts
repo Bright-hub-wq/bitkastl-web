@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const pl: Record<Key, string> = {
+    nav_features: "Funkcje", nav_plans: "Plany", nav_how: "Jak to działa", nav_faq: "FAQ",
+    nav_login: "Zaloguj się", nav_start: "Zacznij", nav_security: "Bezpieczeństwo",
+
+    hero_tag: "Inwestuj z jasnością",
+    hero_t1: "Buduj swoją przyszłość,", hero_t2: "blok po bloku", hero_t3: "",
+    hero_sub: "BitKastl to jedno bezpieczne miejsce, by zasilić konto, inwestować i śledzić każdą transakcję, bez ukrytych niespodzianek.",
+    hero_cta1: "Załóż darmowe konto", hero_cta2: "Zobacz plany",
+    stat_invested: "Łącznie zainwestowano", stat_investors: "Aktywni inwestorzy", stat_countries: "Obsługiwane kraje", stat_paid: "Wypłacono do tej pory",
+    trusted_by: "Zaufali nam inwestorzy z", portfolio_value: "Wartość portfela",
+
+    feat_title: "Wszystko w jednym miejscu",
+    feat_sub: "Twoje pieniądze, aktywność i wsparcie, razem w jednym przejrzystym panelu.",
+    f1_t: "Proste zasilanie", f1_d: "Wpłacaj przez zaufanych partnerów płatniczych. Saldo aktualizuje się dopiero po potwierdzeniu płatności.",
+    f2_t: "Każda operacja zapisana", f2_d: "Wpłaty, inwestycje i wypłaty są rejestrowane.",
+    f3_t: "Stworzone dla telefonów", f3_d: "Szybko i czytelnie na każdym telefonie i laptopie.",
+    f4_t: "Chronione konta", f4_d: "Szyfrowane połączenia i uwierzytelnianie dwuskładnikowe chronią Twoje konto.",
+
+    how_title: "Trzy bloki na start", how_sub: "Pnij się w górę krok po kroku.",
+    s1_t: "Załóż konto", s1_d: "Zarejestruj się i zweryfikuj tożsamość, aby platforma pozostała bezpieczna dla wszystkich.",
+    s2_t: "Zasil portfel", s2_d: "Bezpiecznie dodaj środki wybraną metodą płatności.",
+    s3_t: "Zacznij inwestować", s3_d: "Wybierz plan, inwestuj i śledź postępy w swoim panelu.",
+
+    plans_title: "Plany inwestycyjne",
+    plans_sub: "Wybierz plan dopasowany do Twojego budżetu. Zacznij od 500 $ i przechodź wyżej, gdy będziesz gotowy.",
+    plans_from: "Od", plans_choose: "Wybierz plan", plans_popular: "Najpopularniejszy",
+    plan_perk1: "Pełne śledzenie w panelu", plan_perk2: "Każda transakcja zapisana",
+    plan_perk3: "Ochrona dwuskładnikowa", plan_perk4: "Wsparcie na czacie",
+    plans_return: "Zwrot", plans_duration: "Okres",
+
+    sec_title: "Bezpieczeństwo to nie dodatek",
+    sec_text: "Szyfrowane połączenia, uwierzytelnianie dwuskładnikowe i monitorowane transakcje chronią Twoje konto.",
+    sec_cta: "Otwórz konto",
+    sec_b1: "Szyfrowanie 256-bitowe", sec_b2: "Logowanie dwuskładnikowe", sec_b3: "Przechowywanie offline", sec_b4: "Monitoring 24/7",
+
+    faq_title: "Najczęstsze pytania", faq_sub: "Szybkie odpowiedzi na to, o co pytają najczęściej.", faq_chat: "Napisz do nas",
+    q1: "Jak założyć konto?", a1: "Kliknij Zacznij, wpisz swoje dane i zweryfikuj tożsamość. Po weryfikacji możesz zasilić portfel i zacząć inwestować.",
+    q2: "Jak zasilić konto?", a2: "Wpłać środki w panelu, korzystając z dostępnych metod płatności. Saldo zaktualizuje się po potwierdzeniu płatności.",
+    q3: "Jak wypłacić środki?", a3: "Złóż wniosek o wypłatę w panelu. Możesz śledzić jego status do zakończenia.",
+    q4: "Jaki plan wybrać?", a4: "Wybierz plan odpowiadający kwocie, którą chcesz zainwestować. Każdy plan ma podaną kwotę minimalną.",
+    q5: "Jak chronione jest moje konto?", a5: "Połączenie jest szyfrowane, a dla dodatkowej ochrony możesz włączyć uwierzytelnianie dwuskładnikowe.",
+
+    chat_title: "Czat wsparcia", chat_hello: "Cześć! Jak możemy Ci dziś pomóc?",
+    chat_ph: "Wpisz wiadomość...", chat_send: "Wyślij",
+    chat_auto: "Dziękujemy za wiadomość! Nasz zespół odpowie, gdy tylko czat na żywo zostanie połączony.",
+    chat_q1: "Jak zasilić konto?", chat_q2: "Jak wypłacić środki?", chat_q3: "Jaki plan jest dla mnie?",
+    chat_online: "Online", chat_support: "Czat wsparcia", chat_hint: "Witaj w BitKastl 👋 Porozmawiajmy!",
+
+    foot_tag: "Inwestuj z jasnością.", foot_product: "Produkt", foot_support: "Wsparcie", foot_legal: "Informacje prawne",
+    foot_terms: "Regulamin", foot_privacy: "Prywatność", foot_contact: "Kontakt", foot_rights: "Wszelkie prawa zastrzeżone.",
+    foot_risk: "Inwestowanie wiąże się z ryzykiem, a zyski nie są gwarantowane. Inwestuj tylko tyle, ile możesz stracić.",
+
+    login_title: "Witaj ponownie", login_sub: "Zaloguj się na swoje konto BitKastl.",
+    email: "E-mail", password: "Hasło", password_ph: "Twoje hasło", forgot: "Nie pamiętasz hasła?",
+    login_btn: "Zaloguj się", login_err: "Wpisz adres e-mail i hasło.",
+    new_here: "Nowy w BitKastl?", create_account: "Załóż konto",
+    login_terms: "Logując się, akceptujesz nasz", terms_short: "Regulamin", and: "oraz", privacy_short: "Politykę prywatności",
+    reg_title: "Załóż konto", reg_sub: "Zacznij inwestować z BitKastl w kilka minut.",
+    selected_plan: "Wybrany plan", first_name: "Imię", last_name: "Nazwisko",
+    country: "Kraj", select_country: "Wybierz kraj", phone: "Telefon", dob: "Data urodzenia",
+    referral: "Kod polecający", optional: "opcjonalnie", confirm: "Potwierdź hasło",
+    risk_ack: "Rozumiem, że inwestowanie wiąże się z ryzykiem i mogę stracić kapitał.",
+    agree_a: "Akceptuję", terms_full: "Regulamin", agree_b: "oraz", privacy_full: "Politykę prywatności",
+    reg_btn: "Załóż konto", have_account: "Masz już konto?", login_link: "Zaloguj się",
+    e_first: "Wpisz swoje imię.", e_last: "Wpisz swoje nazwisko.", e_email: "Wpisz prawidłowy adres e-mail.",
+    e_country: "Wybierz kraj.", e_phone: "Wpisz prawidłowy numer telefonu.", e_dob: "Wpisz datę urodzenia.",
+    e_age: "Musisz mieć ukończone 18 lat.", e_pass: "Użyj co najmniej 8 znaków.",
+    e_confirm: "Hasła nie są takie same.", e_agree: "Musisz zaakceptować Regulamin i Politykę prywatności.",
+    e_risk: "Potwierdź, że rozumiesz ryzyko.", last_updated: "Ostatnia aktualizacja",
+};

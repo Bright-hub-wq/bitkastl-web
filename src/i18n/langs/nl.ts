@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const nl: Record<Key, string> = {
+    nav_features: "Functies", nav_plans: "Plannen", nav_how: "Hoe het werkt", nav_faq: "FAQ",
+    nav_login: "Inloggen", nav_start: "Aan de slag", nav_security: "Beveiliging",
+
+    hero_tag: "Beleg met helderheid",
+    hero_t1: "Bouw aan je toekomst,", hero_t2: "blok voor blok", hero_t3: "",
+    hero_sub: "BitKastl biedt je één veilige plek om je account te storten, te beleggen en elke transactie te volgen, zonder verborgen zaken.",
+    hero_cta1: "Gratis account aanmaken", hero_cta2: "Bekijk plannen",
+    stat_invested: "Totaal belegd", stat_investors: "Actieve beleggers", stat_countries: "Landen bediend", stat_paid: "Tot nu toe uitbetaald",
+    trusted_by: "Vertrouwd door beleggers in", portfolio_value: "Portefeuillewaarde",
+
+    feat_title: "Alles op één plek",
+    feat_sub: "Je geld, je activiteit en je support, samen in één duidelijk dashboard.",
+    f1_t: "Eenvoudig storten", f1_d: "Stort via vertrouwde betalingspartners. Je saldo wordt pas bijgewerkt nadat de betaling is bevestigd.",
+    f2_t: "Elke beweging vastgelegd", f2_d: "Stortingen, beleggingen en opnames worden allemaal geregistreerd.",
+    f3_t: "Gemaakt voor mobiel", f3_d: "Snel en duidelijk op elke telefoon of laptop.",
+    f4_t: "Beveiligde accounts", f4_d: "Versleutelde verbindingen en tweestapsverificatie houden je account veilig.",
+
+    how_title: "Drie blokken om te starten", how_sub: "Bouw stap voor stap omhoog.",
+    s1_t: "Maak je account aan", s1_d: "Meld je aan en verifieer je identiteit om het platform veilig te houden voor iedereen.",
+    s2_t: "Stort op je wallet", s2_d: "Voeg veilig geld toe met je favoriete betaalmethode.",
+    s3_t: "Begin met beleggen", s3_d: "Kies een plan, beleg en volg je voortgang in je dashboard.",
+
+    plans_title: "Beleggingsplannen",
+    plans_sub: "Kies het plan dat bij je budget past. Begin vanaf $500 en stap over wanneer je er klaar voor bent.",
+    plans_from: "Vanaf", plans_choose: "Plan kiezen", plans_popular: "Meest gekozen",
+    plan_perk1: "Volledige dashboardtracking", plan_perk2: "Elke transactie vastgelegd",
+    plan_perk3: "Tweestapsbeveiliging", plan_perk4: "Chatsupport",
+    plans_return: "Rendement", plans_duration: "Looptijd",
+
+    sec_title: "Beveiliging is geen bijzaak",
+    sec_text: "Versleutelde verbindingen, tweestapsverificatie en bewaakte transacties beschermen je account.",
+    sec_cta: "Account openen",
+    sec_b1: "256-bits versleuteling", sec_b2: "Tweestapsinlog", sec_b3: "Cold storage", sec_b4: "24/7 bewaking",
+
+    faq_title: "Veelgestelde vragen", faq_sub: "Snelle antwoorden op de vragen die mensen het vaakst stellen.", faq_chat: "Chat met ons",
+    q1: "Hoe maak ik een account aan?", a1: "Klik op Aan de slag, vul je gegevens in en verifieer je identiteit. Na verificatie kun je je wallet storten en beginnen met beleggen.",
+    q2: "Hoe stort ik op mijn account?", a2: "Stort via je dashboard met de beschikbare betaalmethoden. Je saldo wordt bijgewerkt nadat de betaling is bevestigd.",
+    q3: "Hoe neem ik geld op?", a3: "Vraag een opname aan via je dashboard. Je kunt de status volgen tot de opname is voltooid.",
+    q4: "Welk plan moet ik kiezen?", a4: "Kies het plan dat past bij het bedrag dat je wilt beleggen. Elk plan vermeldt het minimumbedrag.",
+    q5: "Hoe is mijn account beveiligd?", a5: "Je verbinding is versleuteld en je kunt tweestapsverificatie inschakelen voor extra bescherming.",
+
+    chat_title: "Supportchat", chat_hello: "Hoi! Waarmee kunnen we je vandaag helpen?",
+    chat_ph: "Typ je bericht...", chat_send: "Verzenden",
+    chat_auto: "Bedankt voor je bericht! Ons team antwoordt zodra de livechat is gekoppeld.",
+    chat_q1: "Hoe stort ik op mijn account?", chat_q2: "Hoe neem ik geld op?", chat_q3: "Welk plan past bij mij?",
+    chat_online: "Online", chat_support: "Chatsupport", chat_hint: "Welkom bij BitKastl 👋 Laten we chatten!",
+
+    foot_tag: "Beleg met helderheid.", foot_product: "Product", foot_support: "Support", foot_legal: "Juridisch",
+    foot_terms: "Voorwaarden", foot_privacy: "Privacy", foot_contact: "Contact", foot_rights: "Alle rechten voorbehouden.",
+    foot_risk: "Beleggen brengt risico’s met zich mee en rendementen zijn niet gegarandeerd. Beleg alleen geld dat je kunt missen.",
+
+    login_title: "Welkom terug", login_sub: "Log in op je BitKastl-account.",
+    email: "E-mail", password: "Wachtwoord", password_ph: "Je wachtwoord", forgot: "Wachtwoord vergeten?",
+    login_btn: "Inloggen", login_err: "Vul je e-mailadres en wachtwoord in.",
+    new_here: "Nieuw bij BitKastl?", create_account: "Account aanmaken",
+    login_terms: "Door in te loggen ga je akkoord met onze", terms_short: "Voorwaarden", and: "en", privacy_short: "Privacybeleid",
+    reg_title: "Maak je account aan", reg_sub: "Begin binnen enkele minuten met beleggen bij BitKastl.",
+    selected_plan: "Gekozen plan", first_name: "Voornaam", last_name: "Achternaam",
+    country: "Land", select_country: "Selecteer je land", phone: "Telefoon", dob: "Geboortedatum",
+    referral: "Verwijzingscode", optional: "optioneel", confirm: "Bevestig wachtwoord",
+    risk_ack: "Ik begrijp dat beleggen risico’s met zich meebrengt en dat ik mijn kapitaal kan verliezen.",
+    agree_a: "Ik ga akkoord met de", terms_full: "Gebruiksvoorwaarden", agree_b: "en het", privacy_full: "Privacybeleid",
+    reg_btn: "Account aanmaken", have_account: "Heb je al een account?", login_link: "Inloggen",
+    e_first: "Vul je voornaam in.", e_last: "Vul je achternaam in.", e_email: "Vul een geldig e-mailadres in.",
+    e_country: "Selecteer je land.", e_phone: "Vul een geldig telefoonnummer in.", e_dob: "Vul je geboortedatum in.",
+    e_age: "Je moet minimaal 18 jaar oud zijn.", e_pass: "Gebruik minimaal 8 tekens.",
+    e_confirm: "De wachtwoorden komen niet overeen.", e_agree: "Je moet akkoord gaan met de Voorwaarden en het Privacybeleid.",
+    e_risk: "Bevestig dat je de risico’s begrijpt.", last_updated: "Laatst bijgewerkt",
+};

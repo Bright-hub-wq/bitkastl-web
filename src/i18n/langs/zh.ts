@@ -1,0 +1,72 @@
+import type { Key } from "../translation";
+
+export const zh: Record<Key, string> = {
+    nav_features: "功能", nav_plans: "投资方案", nav_how: "如何运作", nav_faq: "常见问题",
+    nav_login: "登录", nav_start: "开始使用", nav_security: "安全",
+
+    hero_tag: "清晰透明地投资",
+    hero_t1: "构建你的未来，", hero_t2: "一块一块", hero_t3: "",
+    hero_sub: "BitKastl 为你提供一个安全的地方，用于账户充值、投资并追踪每一笔交易，没有任何隐瞒。",
+    hero_cta1: "免费创建账户", hero_cta2: "查看方案",
+    stat_invested: "累计投资额", stat_investors: "活跃投资者", stat_countries: "服务国家", stat_paid: "累计已支付",
+    trusted_by: "深受以下地区投资者信赖", portfolio_value: "投资组合价值",
+
+    feat_title: "一切集于一处",
+    feat_sub: "你的资金、操作记录和客服支持，尽在一个清晰的控制面板中。",
+    f1_t: "便捷充值", f1_d: "通过可信赖的支付合作伙伴充值。仅在付款确认后，你的余额才会更新。",
+    f2_t: "每一笔操作都有记录", f2_d: "充值、投资和提现都会被记录。",
+    f3_t: "为移动端打造", f3_d: "在任何手机或笔记本电脑上都快速清晰。",
+    f4_t: "账户受到保护", f4_d: "加密连接和双重验证保障你的账户安全。",
+
+    how_title: "三步即可开始", how_sub: "一步一步向上前进。",
+    s1_t: "创建账户", s1_d: "注册并验证身份，让平台对所有人保持安全。",
+    s2_t: "为钱包充值", s2_d: "使用你偏好的支付方式安全地添加资金。",
+    s3_t: "开始投资", s3_d: "选择方案、进行投资，并在控制面板中查看进度。",
+
+    plans_title: "投资方案",
+    plans_sub: "选择适合你预算的方案。从 500 美元起步，准备好后随时升级。",
+    plans_from: "起投金额", plans_choose: "选择方案", plans_popular: "最受欢迎",
+    plan_perk1: "完整的面板追踪", plan_perk2: "每笔交易均有记录",
+    plan_perk3: "双重验证保护", plan_perk4: "在线客服支持",
+    plans_return: "收益率", plans_duration: "期限",
+
+    sec_title: "安全不是事后补充",
+    sec_text: "加密连接、双重验证和受监控的交易共同保护你的账户。",
+    sec_cta: "开通账户",
+    sec_b1: "256 位加密", sec_b2: "双重验证登录", sec_b3: "冷存储", sec_b4: "全天候监控",
+
+    faq_title: "常见问题", faq_sub: "快速解答大家最常问的问题。", faq_chat: "与我们聊天",
+    q1: "如何创建账户？", a1: "点击“开始使用”，填写信息并验证身份。验证通过后，你就可以为钱包充值并开始投资。",
+    q2: "如何为账户充值？", a2: "在控制面板中使用可用的支付方式充值。付款确认后余额会更新。",
+    q3: "如何提现？", a3: "在控制面板中提交提现申请。你可以随时查看其状态，直到完成。",
+    q4: "我应该选择哪个方案？", a4: "选择与你计划投资金额相符的方案。每个方案都会标明最低金额。",
+    q5: "我的账户如何受到保护？", a5: "你的连接已加密，你还可以开启双重验证以获得额外保护。",
+
+    chat_title: "客服聊天", chat_hello: "你好！今天我们能帮你什么？",
+    chat_ph: "输入你的消息...", chat_send: "发送",
+    chat_auto: "感谢你的留言！在线聊天接通后，我们的团队会尽快回复。",
+    chat_q1: "如何为账户充值？", chat_q2: "如何提现？", chat_q3: "哪个方案适合我？",
+    chat_online: "在线", chat_support: "在线客服", chat_hint: "欢迎来到 BitKastl 👋 来聊聊吧！",
+
+    foot_tag: "清晰透明地投资。", foot_product: "产品", foot_support: "支持", foot_legal: "法律信息",
+    foot_terms: "服务条款", foot_privacy: "隐私政策", foot_contact: "联系我们", foot_rights: "保留所有权利。",
+    foot_risk: "投资有风险，收益不作保证。请仅投入你可以承受损失的资金。",
+
+    login_title: "欢迎回来", login_sub: "登录你的 BitKastl 账户。",
+    email: "电子邮箱", password: "密码", password_ph: "你的密码", forgot: "忘记密码？",
+    login_btn: "登录", login_err: "请输入你的邮箱和密码。",
+    new_here: "初次使用 BitKastl？", create_account: "创建账户",
+    login_terms: "登录即表示你接受我们的", terms_short: "服务条款", and: "和", privacy_short: "隐私政策",
+    reg_title: "创建你的账户", reg_sub: "几分钟内即可开始使用 BitKastl 投资。",
+    selected_plan: "已选方案", first_name: "名", last_name: "姓",
+    country: "国家/地区", select_country: "请选择你的国家/地区", phone: "电话", dob: "出生日期",
+    referral: "推荐码", optional: "选填", confirm: "确认密码",
+    risk_ack: "我理解投资存在风险，我可能会损失本金。",
+    agree_a: "我同意", terms_full: "服务条款", agree_b: "和", privacy_full: "隐私政策",
+    reg_btn: "创建账户", have_account: "已有账户？", login_link: "登录",
+    e_first: "请输入你的名。", e_last: "请输入你的姓。", e_email: "请输入有效的邮箱地址。",
+    e_country: "请选择你的国家/地区。", e_phone: "请输入有效的电话号码。", e_dob: "请输入你的出生日期。",
+    e_age: "你必须年满 18 周岁。", e_pass: "请至少使用 8 个字符。",
+    e_confirm: "两次输入的密码不一致。", e_agree: "你必须同意服务条款和隐私政策。",
+    e_risk: "请确认你已了解相关风险。", last_updated: "最后更新",
+};
